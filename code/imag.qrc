@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>imag/LoginPage_background.jpg</file>
+        <file>imag/AddUserDialog_background.png</file>
+        <file>imag/DeleteUserDialog_background.png</file>
+        <file>imag/HomePage_map.png</file>
+        <file>imag/HomePage_map2.png</file>
+    </qresource>
+</RCC>
