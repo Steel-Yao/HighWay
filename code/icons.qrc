@@ -1,0 +1,41 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/home.png</file>
+        <file>icons/device.png</file>
+        <file>icons/user.png</file>
+        <file>icons/car.png</file>
+        <file>icons/person.png</file>
+        <file>icons/place.png</file>
+        <file>icons/statistic.png</file>
+        <file>icons/user_add.png</file>
+        <file>icons/user_delete.png</file>
+        <file>icons/user_manage.png</file>
+        <file>icons/about.png</file>
+        <file>icons/cancel.png</file>
+        <file>icons/cancel_round.png</file>
+        <file>icons/filter.png</file>
+        <file>icons/minus.png</file>
+        <file>icons/minus_round.png</file>
+        <file>icons/ok.png</file>
+        <file>icons/ok_round.png</file>
+        <file>icons/plus.png</file>
+        <file>icons/plus_round.png</file>
+        <file>icons/minus_square.png</file>
+        <file>icons/plus_square.png</file>
+        <file>icons/qt.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/edit_square.png</file>
+        <file>icons/video.png</file>
+        <file>icons/video_add.png</file>
+        <file>icons/video_back .png</file>
+        <file>icons/video_cut.png</file>
+        <file>icons/video_goup.png</file>
+        <file>icons/video_large.png</file>
+        <file>icons/video_little.png</file>
+        <file>icons/video_no.png</file>
+        <file>icons/video_normal.png</file>
+        <file>icons/video_speed.png</file>
+        <file>icons/video_start.png</file>
+        <file>icons/video_stop.png</file>
+    </qresource>
+</RCC>
