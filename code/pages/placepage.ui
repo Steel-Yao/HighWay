@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PlacePage</class>
+ <widget class="QMainWindow" name="PlacePage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>728</width>
+    <height>534</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Times New Roman</family>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::NoContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>271</width>
+      <height>161</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::CustomContextMenu</enum>
+    </property>
+    <property name="sizeAdjustPolicy">
+     <enum>QAbstractScrollArea::AdjustToContents</enum>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>true</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SingleSelection</enum>
+    </property>
+    <property name="selectionBehavior">
+     <enum>QAbstractItemView::SelectRows</enum>
+    </property>
+    <property name="sortingEnabled">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <property name="movable">
+    <bool>false</bool>
+   </property>
+   <property name="iconSize">
+    <size>
+     <width>32</width>
+     <height>32</height>
+    </size>
+   </property>
+   <property name="toolButtonStyle">
+    <enum>Qt::ToolButtonTextUnderIcon</enum>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actPlace_add"/>
+   <addaction name="actPlace_delete"/>
+   <addaction name="actPlace_modify"/>
+  </widget>
+  <action name="actPlace_add">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/plus_round.png</normaloff>:/icons/plus_round.png</iconset>
+   </property>
+   <property name="text">
+    <string>新增监测点</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;新增一个检测点&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="statusTip">
+    <string>增加一个新的监测点</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actPlace_delete">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/minus_round.png</normaloff>:/icons/minus_round.png</iconset>
+   </property>
+   <property name="text">
+    <string>删除监测点</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;删除一个监测点&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="statusTip">
+    <string>删除选中的监测点</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+  <action name="actPlace_modify">
+   <property name="icon">
+    <iconset resource="../icons.qrc">
+     <normaloff>:/icons/edit_square.png</normaloff>:/icons/edit_square.png</iconset>
+   </property>
+   <property name="text">
+    <string>修改监测点</string>
+   </property>
+   <property name="toolTip">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;修改监测点&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="statusTip">
+    <string>修改选中的监测点</string>
+   </property>
+   <property name="font">
+    <font>
+     <family>Times New Roman</family>
+     <pointsize>14</pointsize>
+    </font>
+   </property>
+   <property name="menuRole">
+    <enum>QAction::NoRole</enum>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../icons.qrc"/>
+ </resources>
+ <connections/>
+</ui>
